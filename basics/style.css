@@ -1,0 +1,87 @@
+h1{
+    color:blueviolet;
+    background-color: aquamarine;
+    text-align: center;
+}
+.para
+{
+    color: red;
+
+}
+#red-2{
+    color: rgb(152, 233, 12) !important;
+    color: aqua;
+}
+.red-1{
+    color: red;
+}
+
+h2{
+    color: blue;
+}
+/*combination selectors*/
+div a{
+    color: aquamarine;
+}
+nav a{
+    color: aquamarine;
+}
+/*child selector*/
+nav>a{
+    color: red;
+}
+h1+p{
+    color: aquamarine;
+}
+h1~p{
+    color: orangered;
+}
+/*psudoclass*/
+a{
+    color: rgb(37, 23, 5);
+}
+a:hover{
+    cursor: crosshair;
+    color: red;
+    background-color: aquamarine;
+}
+a:active{
+    color: darkmagenta;
+    background-color: red;
+    cursor: pointer;
+}
+a:visited{
+    color: rgb(28, 22, 205);
+}
+a:link{
+    color: greenyellow;
+}
+button{
+    border-radius: 10px;
+}
+button:hover{
+    color: blueviolet;
+    background-color: chocolate;
+}
+button:active{
+    color: red;
+    background-color: yellow;
+}
+
+/*psudoelement*/
+h1::first-letter{
+    color: red;
+}
+/*background styling*/
+body{
+    background:linear-gradient(90deg,rgb(207, 113, 113),rgb(26, 170, 206),rgb(222, 17, 51))
+}
+body{
+    /*
+    background-image: url("https://img.freepik.com/premium-photo/cute-kitten-sweater-sitting-small-cat-gray-sweater-watching-generative-ai-illustration_116953-2886.jpg?w=2000");
+    background-size:cover;
+    background-attachment: fixed;
+    background-position:center ;
+    */
+    background: url(https://img.freepik.com/premium-photo/cute-kitten-sweater-sitting-small-cat-gray-sweater-watching-generative-ai-illustration_116953-2886.jpg?w=2000)no-repeat scroll center;
+}
