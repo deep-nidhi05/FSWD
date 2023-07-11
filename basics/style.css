@@ -1,31 +1,37 @@
-h1{
-    color:blueviolet;
+/*h1{
+    color:rgb(61, 10, 109);
     background-color: aquamarine;
     text-align: center;
+    
 }
-.para
-{
-    color: red;
-
+*/
+.para{
+    color: rgb(17, 29, 189);
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 200rem 200rem rgb(36, 88, 140);
 }
-#red-2{
+/*#red-2{
     color: rgb(152, 233, 12) !important;
     color: aqua;
 }
 .red-1{
     color: red;
 }
-
+*/
+/*
 h2{
     color: blue;
 }
+*/
 /*combination selectors*/
-div a{
+/*div a{
     color: aquamarine;
 }
 nav a{
     color: aquamarine;
 }
+*/
 /*child selector*/
 nav>a{
     color: red;
@@ -36,6 +42,7 @@ h1+p{
 h1~p{
     color: orangered;
 }
+
 /*psudoclass*/
 a{
     color: rgb(37, 23, 5);
@@ -84,4 +91,14 @@ body{
     background-position:center ;
     */
     background: url(https://img.freepik.com/premium-photo/cute-kitten-sweater-sitting-small-cat-gray-sweater-watching-generative-ai-illustration_116953-2886.jpg?w=2000)no-repeat scroll center;
+}
+/* border
+   padding
+   margins*/
+.heading{
+    border-width:1rem ;
+    border-style: solid;
+    border-color: rgb(108, 6, 6);
+    padding: 20px,20px;
+    margin: 20px,20px;
 }
